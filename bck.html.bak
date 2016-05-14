@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <title>Home</title>
+  <link rel="stylesheet" type="text/css" href="my-style.css">
+
+ </head>
+ <body background="animate-area" align="center">
+ 
+  <div class="animate-area"><br><br><br><br><br><br><br><br><br><br>
+  <a href="#" class="myButton">Corporation</a><br><br><br><br><br>
+  <a href="#" class="myButton">Public</a>
+</div>
+
+  
+
+ </body>
+</html>
