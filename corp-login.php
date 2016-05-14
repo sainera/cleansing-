@@ -116,7 +116,7 @@ require("php_database.php");
 		}
 
 		//query to get the group name & password from the login-table
-		$sq="SELECT `corp_group`,`password` FROM login_table WHERE corp_group='$group' AND password='$GroupPassword'";
+		$sq="SELECT `groups`,`password` FROM corp_login WHERE groups='$group' AND password='$GroupPassword'";
 				$query=mysql_query($sq);
                 $row=mysql_fetch_row($query);
 				if (($group==$row[0] AND $GroupPassword==$row[1])) {
